@@ -8,10 +8,8 @@ elsif level < 1
   then puts "fuck off"
 else
 
-brick = "#"
-
   for i in 1..level
-    puts brick*i
+    puts "#{" "*(level-i)}#{"#"*i}"
   end
 
 end
